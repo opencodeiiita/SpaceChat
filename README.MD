@@ -1,3 +1,3 @@
 ## SpaceChat
 
-GenAI and LangGraph Orchestrated Space ChatrBot
+GenAI and LangGraph Orchestrated Space ChatBot
