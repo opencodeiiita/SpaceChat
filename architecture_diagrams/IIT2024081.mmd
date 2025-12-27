@@ -1,0 +1,15 @@
+---
+config:
+  theme: redux-dark
+---
+flowchart TB
+    User1["User"] --> UILayer1["UI Layer"]
+    UILayer1 --> LLMAgent["LLM Agent"]
+    LLMAgent --> Planner["Planner"]
+    Planner --> ExecutionGraph["Execution Graph"]
+    ExecutionGraph --> ResearchTool["Research Tool"] & UtilityFunctions["Utility Functions"] & LLMSubAgents["LLM Sub-Agents"]
+    ResearchTool --> FinalResponse["Final Response"]
+    UtilityFunctions --> FinalResponse
+    LLMSubAgents --> FinalResponse
+    FinalResponse --> UILayer2["UI Layer"]
+    UILayer2 --> User1
