@@ -26,6 +26,33 @@ A modular, space-focused chatbot scaffold built with Groq LLMs, LangGraph/LangCh
 - `src/utils/helpers.py`: Formatting/validation utilities.
 - `src/data/`: Placeholder for cached responses or local assets.
 
+## Directory structure
+```
+SpaceChat/                  # Root of repo
+├── README.MD               # Project documentation
+├── CONTRIBUTING.MD         # Comprehensive guide for contributing
+├── src/
+│ ├── agents/               # LangGraph agent nodes & orchestration
+│ │ ├── graph.py            # LangGraph engine that coordinates conversation flow
+│ │ ├── llm_agent.py        # Groq LLM agent interface for response generation
+│ │ ├── planner.py          # Decides which tool to call and when
+│ │ └── research_tool.py    # Research helpers
+│ ├── ui/
+│ │ └── app.py              # Streamlit app entrypoint
+│ └── utils/
+│   └── helpers.py          # Reusable utility modules
+├── participants/           # Contributor submissions (Design folders + intros)
+│ ├── 24CS0160/             # Design folders (logo files)
+│ ├── IEC2024059/           # Design folders (logo files)
+│ ├── ...                   # Individual contributor folders
+│ └── *.txt                 # Intro files for Issue #1
+└── architecture_diagrams/  # Contributor architecture diagrams
+  ├── .gitignore            # Untrack sensitive files
+  ├── *.png                 # Architecture diagrams
+  ├── *.svg                 # Vector diagrams
+  └── *.txt                 # Links to diagrams
+```
+
 ## Architecture at a glance
 The core flow connects the Streamlit UI to the LangGraph execution graph, which routes messages through the planner, research tools, and LLM agent. Utilities support the agents and tools, while future memory hooks sit alongside the graph.
 flowchart TD
