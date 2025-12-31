@@ -72,3 +72,21 @@ flowchart TD
 - Keep modules small and composable; maintain clear boundaries between UI, graph, agents, and utilities.
 - Prefer adding tool nodes over expanding prompts when external data is needed.
 - Document new endpoints, models, or configuration in this README and code docstrings.
+
+## Project Structure
+
+SpaceChat/
+├─ src/
+│  ├─ ui/
+│  │  └─ app.py
+│  ├─ agents/
+│  │  ├─ graph.py
+│  │  ├─ planner.py
+│  │  ├─ llm_agent.py
+│  │  └─ research_tool.py
+│  ├─ utils/
+│  │  ├─ space_apis.py
+│  │  └─ helpers.py
+│  └─ data/
+├─ README.md
+├─ .gitignore
