@@ -1,0 +1,33 @@
+graph TD
+    %% Define Nodes
+    User([User])
+    UI[UI Layer]
+    Agent[LLM Agent]
+    Planner[Planner]
+    ExecGraph[Execution Graph]
+    
+    %% Parallel Execution Nodes
+    Research[Research Tool]
+    Utility[Utility Functions]
+    SubAgents[LLM Sub-Agents]
+    
+    Response[Final Response]
+
+    %% Define Flow
+    User --> UI
+    UI --> Agent
+    Agent --> Planner
+    Planner --> ExecGraph
+    
+    %% Branching
+    ExecGraph --> Research
+    ExecGraph --> Utility
+    ExecGraph --> SubAgents
+    
+    %% Convergence
+    Research --> Response
+    Utility --> Response
+    SubAgents --> Response
+    
+    %% Return Loop
+    Response --> U
