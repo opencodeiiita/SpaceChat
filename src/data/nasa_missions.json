@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Apollo 11",
+    "description": "Apollo 11 was the landmark spaceflight that first landed humans on the Moon on July 20, 1969. Launched by a Saturn V rocket from Kennedy Space Center, the mission carried Commander Neil Armstrong, Lunar Module Pilot Buzz Aldrin, and Command Module Pilot Michael Collins. While Collins remained in lunar orbit, Armstrong and Aldrin descended to the lunar surface in the Lunar Module Eagle. Armstrong famously became the first person to step onto the moon's surface, uttering the iconic words, 'That's one small step for man, one giant leap for mankind.' The duo spent about two and a quarter hours exploring the Sea of Tranquility, collecting nearly 50 pounds of lunar material to bring back to Earth. This mission effectively ended the Space Race and fulfilled President John F. Kennedy's national goal of landing a man on the Moon and returning him safely to the Earth before the decade was out. It remains one of the greatest achievements in human history.",
+    "launch_date": "1969-07-16",
+    "destination": "Moon",
+    "agency": "NASA"
+  },
+  {
+    "name": "Voyager 1",
+    "description": "Voyager 1 is a space probe launched by NASA on September 5, 1977, as part of the Voyager program to study the outer Solar System and interstellar space beyond the Sun's heliosphere. Originally designed for a five-year mission to study Jupiter and Saturn, the probe exceeded all expectations. It provided the first high-resolution images of the moons of these gas giants and discovered active volcanism on Jupiter's moon Io and the complexities of Saturn's rings. In 2012, Voyager 1 made history by becoming the first human-made object to enter interstellar space, moving beyond the influence of the solar wind. Carried aboard the craft is the Golden Record, a gold-plated copper phonograph record containing sounds and images selected to portray the diversity of life and culture on Earth to any extraterrestrial intelligence. It continues to transmit data back to Earth from over 14 billion miles away, proving to be one of the most durable and significant scientific instruments ever built.",
+    "launch_date": "1977-09-05",
+    "destination": "Interstellar Space",
+    "agency": "NASA"
+  },
+  {
+    "name": "Mars Science Laboratory (Curiosity)",
+    "description": "The Mars Science Laboratory mission, featuring the Curiosity rover, launched on November 26, 2011, with the primary objective of determining whether Mars was ever capable of supporting microbial life. After a daring 'sky crane' landing in August 2012, Curiosity began exploring Gale Crater and climbing Mount Sharp. The rover is a mobile laboratory equipped with advanced scientific instruments, including cameras, drills, and spectrometers to analyze soil and rock samples. Early in its mission, Curiosity found evidence of ancient liquid water, specifically ancient streambeds and lake environments that possessed the chemical ingredients necessary for life. Throughout its decade-long trek, the rover has traveled over 18 miles, weathering dust storms and harsh radiation while sending back stunning high-definition panoramas of the Martian landscape. Curiosity paved the way for the Perseverance rover and future human exploration by studying the Martian climate and geology in unprecedented detail, proving that the Red Planet was once a habitable world.",
+    "launch_date": "2011-11-26",
+    "destination": "Mars",
+    "agency": "NASA"
+  },
+  {
+    "name": "James Webb Space Telescope",
+    "description": "The James Webb Space Telescope (JWST) is the most powerful and complex space telescope ever built, launched on December 25, 2021. Developed as a successor to the Hubble Space Telescope, JWST is designed to solve mysteries in our solar system, look beyond to distant worlds around other stars, and probe the mysterious structures and origins of our universe. Stationed at the second Lagrange point (L2), nearly a million miles from Earth, its massive 6.5-meter primary mirror and highly sensitive infrared instruments allow it to peer through cosmic dust clouds to see the very first stars and galaxies formed after the Big Bang. Since its deployment, it has captured breathtaking images of nebulae, discovered water vapor on exoplanets, and provided the deepest and sharpest infrared images of the distant universe to date. By observing light from over 13 billion years ago, Webb is essentially a time machine, rewriting our understanding of cosmology and the evolution of the early universe in ways previously unimaginable.",
+    "launch_date": "2021-12-25",
+    "destination": "Lagrange Point 2",
+    "agency": "NASA"
+  },
+  {
+    "name": "Hubble Space Telescope",
+    "description": "Launched in April 1990 aboard the Space Shuttle Discovery, the Hubble Space Telescope has revolutionized our understanding of the cosmos more than almost any other instrument. Orbiting high above the Earth's atmosphere, Hubble captures incredibly sharp images without the distorting effects of air. However, its mission almost failed early on due to a spherical aberration in its primary mirror. In 1993, a historic servicing mission by astronauts corrected the flaw, beginning a multi-decade era of discovery. Hubble has played a crucial role in determining the age of the universe, the existence of dark energy, and the rate at which the universe is expanding. It has observed the birth and death of stars, cataloged thousands of galaxies, and captured the famous 'Pillars of Creation' image. Despite the arrival of the James Webb Space Telescope, Hubble remains an essential tool for astronomers, continuing to provide valuable data in ultraviolet, visible, and near-infrared light from its vantage point in low Earth orbit.",
+    "launch_date": "1990-04-24",
+    "destination": "Low Earth Orbit",
+    "agency": "NASA"
+  },
+  {
+    "name": "Perseverance Rover",
+    "description": "The Perseverance rover, part of the Mars 2020 mission, landed in Jezero Crater on February 18, 2021. Its main goal is to search for signs of ancient microbial life and collect samples of rock and regolith for potential future return to Earth. Perseverance carries the Ingenuity helicopter, which performed the first powered, controlled flight on another planet. The rover is equipped with advanced scientific instruments, including the Mastcam-Z, SuperCam, and the PIXL, designed to analyze the chemical composition of the Martian surface. It also carries the MOXIE experiment, which successfully produced oxygen from the Martian atmosphere. By studying the geology and climate of Mars, Perseverance is helping scientists understand the planet's history and preparing for future human exploration. This mission represents a significant step in our quest to answer whether life ever existed beyond Earth and demonstrates NASA's ability to operate complex machinery in the extremely harsh and unpredictable Martian environment.",
+    "launch_date": "2020-07-30",
+    "destination": "Mars",
+    "agency": "NASA"
+  },
+  {
+    "name": "Cassini-Huygens",
+    "description": "The Cassini-Huygens mission was a joint  endeavor between NASA, the European Space Agency, and the Italian Space Agency to study Saturn and its complex system of rings and moons. Launched in 1997, the spacecraft arrived at Saturn in 2004 and spent 13 years orbiting the giant planet. It carried the Huygens probe, which successfully landed on Saturn’s largest moon, Titan, revealing a world with liquid methane lakes and a thick nitrogen atmosphere. Cassini provided unprecedented data on Saturn's atmospheric dynamics, the intricate structure of its rings, and the discovery of active geysers on the moon Enceladus, suggesting a subsurface ocean that could potentially harbor life. The mission concluded in 2017 with a dramatic 'Grand Finale,' where the spacecraft plunged into Saturn's atmosphere to prevent biological contamination of the moons. Cassini's legacy continues to shape our understanding of the outer solar system and the conditions necessary for life on icy worlds.",
+    "launch_date": "1997-10-15",
+    "destination": "Saturn",
+    "agency": "NASA"
+  },
+  {
+    "name": "New Horizons",
+    "description": "Launched in 2006, New Horizons was the first mission to explore the dwarf planet Pluto and the Kuiper Belt, a region of icy objects beyond the orbit of Neptune. Traveling at record-breaking speeds, the spacecraft reached the Pluto system in July 2015, capturing the first high-resolution images of the dwarf planet and its moons. These images revealed a surprisingly complex world with nitrogen ice glaciers, towering water-ice mountains, and a thin, blue-tinted atmosphere. The mission's discovery of the heart-shaped Tombaugh Regio fascinated the world and redefined our understanding of planetary activity in the cold outer reaches of the solar system. After its historic Pluto flyby, New Horizons continued into the Kuiper Belt, where it conducted a flyby of the ancient object Arrokoth in 2019, providing insights into the building blocks of the solar system. The mission remains active, continuing to observe distant Kuiper Belt objects and study the heliosphere as it heads toward interstellar space.",
+    "launch_date": "2006-01-19",
+    "destination": "Pluto",
+    "agency": "NASA"
+  }
+]
