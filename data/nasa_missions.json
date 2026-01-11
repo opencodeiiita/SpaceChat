@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Apollo 11",
+    "description": "Apollo 11 was the first mission to land humans on the Moon.",
+    "launch_date": "1969-07-16",
+    "destination": "Moon",
+    "agency": "NASA"
+  },
+  {
+    "name": "Voyager 1",
+    "description": "Voyager 1 is a space probe launched by NASA to study the outer Solar System.",
+    "launch_date": "1977-09-05",
+    "destination": "Interstellar Space",
+    "agency": "NASA"
+  }
+]
