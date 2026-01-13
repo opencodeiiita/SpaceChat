@@ -34,6 +34,8 @@ def get_mission_details(name: str) -> Dict[str, Any]:
         return {"error": "Empty query provided"}
 
     # Step 1: LLM-based semantic search (stub)
+    
+    # Importtant message : 
     # Replace this stub with actual LLM integration when we have that
     def llm_semantic_search(query, missions):
         # Simulate LLM output: find best match by fuzzy logic
