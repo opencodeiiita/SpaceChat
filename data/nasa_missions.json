@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Apollo 11",
+    "launch_year": 1969,
+    "agency": "NASA",
+    "description": "First manned mission to land on the Moon."
+  },
+  {
+    "name": "Voyager 1",
+    "launch_year": 1977,
+    "agency": "NASA",
+    "description": "First spacecraft to reach interstellar space."
+  }
+]
