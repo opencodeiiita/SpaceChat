@@ -1,0 +1,6 @@
+Name: Vibhu Tomer
+Roll Number: 20243317
+Hobbies: Competitive Programming, Flutter development, Firebase Development, Gym, learning new technologies
+Github ID: vibhutomer
+Tech Parent: App Development and AI-ML
+Favorite Society: Coding Club and Student Mentorship Programme
